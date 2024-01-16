@@ -1,11 +1,13 @@
 import { useState } from "react";
 
+const name = "<Enrique Barrios/>"
+
 export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
     <div className="flex items-center justify-between  text-slate-50 bg-slate-950 py-8">
-      <h1 className="text-2xl pl-4">Enrique Barrios</h1>
+      <h1 className="text-2xl pl-4">{name}</h1>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
           <div

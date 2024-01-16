@@ -1,5 +1,9 @@
 import React from 'react'
 import Logo from '../assets/art.svg'
+import Github from '../assets/Github.png'
+import Linkedin from '../assets/Linkedin.png'
+
+
 
 function Home() {
   return (
@@ -15,6 +19,11 @@ function Home() {
 <div className='flex'>
 <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mr-6 rounded">Contact</button>
 <button class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4   rounded">Resume</button>
+</div>
+
+<div className='flex mt-4 mb-4'>
+    <img className='w-12 mr-5' src={Github}></img>
+    <img className='w-12' src={Linkedin}></img>
 </div>
 <img src={Logo}></img>
 
