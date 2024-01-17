@@ -8,7 +8,7 @@ import Linkedin from '../assets/Linkedin.png'
 function Home() {
   return (
    
-<div className='flex items-center flex-col text-slate-50'>
+<div className='flex items-center  flex-col text-slate-50'>
 
 <div className='text-center'>
 <h1 className='text-2xl pt-9 '>Enrique Barrios</h1>
@@ -22,8 +22,8 @@ function Home() {
 </div>
 
 <div className='flex mt-4 mb-4'>
-    <img className='w-12 mr-5' src={Github}></img>
-    <img className='w-12' src={Linkedin}></img>
+  <a href='https://github.com/EnriqueB5310' target="_blank">  <img  className='w-12 mr-5' src={Github}></img> </a>
+    <a><img className='w-12' src={Linkedin}></img> </a>  
 </div>
 <img src={Logo}></img>
 
