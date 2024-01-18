@@ -24,8 +24,11 @@ function Stacks() {
         <h1 className='text-slate-50 text-lg font-bold pt-5 ml-5'>React</h1>
         </div>
 
-        <div>
-        <h1 className='text-slate-50 text-lg font-bold pt-5 pb-5'>Tailwind</h1>
+        <div className='flex'>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" className='w-10' />
+
+
+        <h1 className='text-slate-50 text-lg font-bold pt-5 pb-5 ml-5'>Tailwind</h1>
         </div>
         </div>
         </div>
