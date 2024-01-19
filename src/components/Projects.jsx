@@ -7,7 +7,7 @@ function Projects() {
   return (
 
 <div>
-<h1 className='text-slate-50 pt-20 pb-10 text-2xl font-bold text-center'>My Projects</h1>
+<h1 className='text-slate-50  pb-10 text-2xl font-bold text-center'>My Projects</h1>
 
 
 

@@ -6,7 +6,7 @@ function Stacks() {
 
 <h1 className='text-slate-50 pt-20 pb-10 text-2xl font-bold text-center'>My tech stack</h1>
 
-<div className='flex flex-col  lg:flex-row lg:justify-center items-center'>
+<div className='flex flex-col  lg:flex-row lg:justify-center items-center pb-20'>
 
 <div className='flex flex-row justify-center lg:ml-5 bg-slate-500 rounded-md pl-20 pr-20'>
         <div className='flex-row'>
