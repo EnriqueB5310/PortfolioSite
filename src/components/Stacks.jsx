@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from './Card'
+
 function Stacks() {
   return (
     <div className='bg-slate-950 mb-20'>
