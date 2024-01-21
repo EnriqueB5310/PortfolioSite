@@ -51,7 +51,7 @@ export default function Header() {
           </div>
         </section>
 
-        <ul className="DESKTOP-MENU hidden space-x-8 lg:flex text-slate-50 ">
+        <ul className="DESKTOP-MENU hidden space-x-8 lg:flex text-slate-50 pr-20">
           <li>
             <a href="/about">About</a>
           </li>
