@@ -8,7 +8,7 @@ import Linkedin from '../assets/Linkedin.png'
 function Home() {
   return (
    
-<div className='flex items-center  flex-col text-slate-50'>
+<div className='flex items-center  flex-col text-slate-50 pb-60 lg:pb-0'>
 
 <div className='text-center'>
 <h1 className='text-2xl pt-9 '>Enrique Barrios</h1>

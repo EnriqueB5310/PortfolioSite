@@ -2,9 +2,9 @@ import React from 'react'
 
 function Stacks() {
   return (
-    <div className='bg-slate-950 mb-20'>
+    <div className='bg-slate-800 mb-20'>
 
-<h1 className='text-slate-50 pt-20 pb-10 text-2xl font-bold text-center'>My tech stack</h1>
+<h1 className='text-slate-50 pt-20 pb-10 text-2xl font-bold text-center'>My Tech Stack</h1>
 
 <div className='flex flex-col  lg:flex-row lg:justify-center items-center pb-20'>
 
