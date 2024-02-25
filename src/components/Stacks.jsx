@@ -7,7 +7,7 @@ import { BiLogoPostgresql } from "react-icons/bi";
 
 
 function Stacks() {
-  // Skills
+
   const frontEnd = [
     {
       title: "JavaScript",
@@ -41,20 +41,20 @@ function Stacks() {
   return (
     <section
       id="skills"
-      className="flex flex-col items-center justify-center bg-secondary lg:min-h-screen mx-auto "
+      className="flex flex-col items-center justify-center bg-slate-900 lg:min-h-screen mx-auto "
     >
      
-        {/* Title */}
+        
         <div className="mt-[6px]">
           <h1 className="text-[60px] lg:text-[60px] 2xl:text-[80px] md:text-[50px] text-white font-bold">
             Tech Stack
           </h1>
         </div>
 
-        {/* Boxes */}
+        
         <div className="mt-9 space-y-5 lg:space-y-0 flex flex-col items-center lg:flex-row lg:space-x-10 mb-[50px] 2xl:mb-[80px] ">
-          {/* Front-End Skills */}
-          <div className="w-[350px] h-[450px] bg-primary flex flex-col items-center justify-evenly rounded-[20px] shadow-lg transition duration-300 transform hover:shadow-2xl">
+         
+          <div className="w-[350px] h-[450px] flex flex-col items-center justify-evenly bg-slate-700 rounded-[20px] shadow-lg transition">
             <h1 className="text-white text-4xl font-bold mb-5 ">Front-End</h1>
             <ul>
               {frontEnd.map((skill) => {
@@ -72,8 +72,8 @@ function Stacks() {
             </ul>
           </div>
 
-          {/* Back-End Skills */}
-          <div className="w-[350px] h-[450px] bg-primary flex flex-col items-center justify-evenly rounded-[20px] shadow-lg transition duration-300 transform hover:shadow-2xl">
+          
+          <div className="w-[350px] h-[450px] bg-primary flex flex-col items-center bg-slate-700 justify-evenly rounded-[20px] shadow-lg ">
             <h1 className="text-white text-4xl font-bold mb-5">Back-End</h1>
             <ul>
               {backEnd.map((skill, index) => {
