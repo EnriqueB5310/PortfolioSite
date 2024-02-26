@@ -3,8 +3,8 @@ import { FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
-import { BiLogoPostgresql } from "react-icons/bi";
-
+import { SiMongodb } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
 
 function Stacks() {
 
@@ -33,10 +33,18 @@ function Stacks() {
       icon: <SiExpress size={50} />,
     },
     {
-      title: "PostgreSQL",
-      icon: <BiLogoPostgresql size={50} />,
+      title: "MongoDB",
+      icon: <SiMongodb size={50} />,
     },
   ];
+
+  const tools = {
+
+    title: "Git",
+    icon: <FaGithub size={50} />
+
+
+  }
 
   return (
     <section

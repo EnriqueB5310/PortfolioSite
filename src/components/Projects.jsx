@@ -1,19 +1,38 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 function Projects() {
+
+
+const projects = [{
+
+title: "Youtube Mp3 Converter",
+description: "Converts Youtube videos into mp3 or mp4 format for offline viewing",
+image: null,
+demo: "https://ytmp3-iqma.onrender.com/",
+tech: null,
+
+}]
+
+
+
   return (
    
    <>
-    <h1 className='text-slate-50 pt-10 pb-10 text-2xl font-bold text-center'>Projects</h1>
-
-    <div className='flex justify-center content-center flex-row '>
-<ProjectCard
-project="Flight API"
-bio="A webAPI made in Java's Spring framework that handles the storage and mock purchases of flights"
-stack1=" https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" 
-/>
-
-    </div>
+   <section id="projects" className=" min-h-[910px] bg-primary">
+      
+        <div className="font-bold pt-[90px] text-[60px] text-white flex justify-center text-center ">
+          <h1>Projects</h1>
+        </div>
+        <div className="container lg:flex lg:justify-center mx-auto">
+         <ProjectCard
+         
+         project="Mp3 Converter"
+         bio="Converts youtube videos into mp3 or mp4 format for offline use"
+         
+         />
+        </div>
+     
+    </section>
 </>
 
   )
