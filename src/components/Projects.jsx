@@ -1,5 +1,8 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
+import Mp3Mp4 from '../assets/mp3mp4.png'
+
+
 function Projects() {
 
 
@@ -7,7 +10,7 @@ const projects = [{
 
 title: "Youtube Mp3 Converter",
 bio: "Converts Youtube videos into mp3 or mp4 format for offline viewing",
-image: null,
+image: Mp3Mp4,
 demo: "https://ytmp3-iqma.onrender.com/",
 tech: null,
 
@@ -29,7 +32,7 @@ tech: null,
               key={index}
               image={project.image}
               title={project.title}
-              description={project.bio}
+              bio={project.bio}
               link={project.link}
               demo={project.demo}
             />

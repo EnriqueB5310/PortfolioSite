@@ -54,7 +54,7 @@ function Stacks() {
      
         
         <div className="mt-[6px]">
-          <h1 className="text-[60px] lg:text-[60px] 2xl:text-[80px] md:text-[50px] text-white font-bold">
+          <h1 className="text-[60px] hover:text-blue-500 hover:duration-500 lg:text-[60px] 2xl:text-[80px] md:text-[50px] text-white font-bold">
             Tech Stack
           </h1>
         </div>
