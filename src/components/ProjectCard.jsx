@@ -14,13 +14,13 @@ function ProjectCard(props) {
 </div>
 <div className="flex flex-col justify-center lg:pr-4 text-white">
               {/* Title */}
-              <div className="font-bold text-primaryTextColor text-[30px] lg:mt-[0px] mt-[30px]">
-                <h1>Test</h1>
+              <div className="font-bold  text-[30px] lg:mt-[0px] mt-[30px]">
+                <h1>{props.title}</h1>
               </div>
 
               {/* Description */}
               <div className="mt-[10px] text-[20px]">
-                <p>Test</p>
+                <p>{props.bio}</p>
               </div>
               </div>
 </div>

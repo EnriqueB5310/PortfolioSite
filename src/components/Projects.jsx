@@ -6,7 +6,7 @@ function Projects() {
 const projects = [{
 
 title: "Youtube Mp3 Converter",
-description: "Converts Youtube videos into mp3 or mp4 format for offline viewing",
+bio: "Converts Youtube videos into mp3 or mp4 format for offline viewing",
 image: null,
 demo: "https://ytmp3-iqma.onrender.com/",
 tech: null,
@@ -24,11 +24,16 @@ tech: null,
           <h1 className='mb-20 hover:text-violet-600 hover:duration-500'>Projects</h1>
         </div>
         <div className="container lg:flex lg:justify-center mx-auto">
-         <ProjectCard
-         
-  
-         
-         />
+        {projects.map((project, index) => (
+            <ProjectCard
+              key={index}
+              image={project.image}
+              title={project.title}
+              description={project.bio}
+              link={project.link}
+              demo={project.demo}
+            />
+          ))}
         </div>
      
     </section>
