@@ -1,6 +1,6 @@
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import { SiSpringboot, SiTailwindcss } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
@@ -25,8 +25,8 @@ function Stacks() {
 
   const backEnd = [
     {
-      title: "Node.JS",
-      icon: <FaNodeJs size={50} />,
+      title: "Spring ",
+      icon: <SiSpringboot size={50} />,
     },
     {
       title: "Express.JS",
