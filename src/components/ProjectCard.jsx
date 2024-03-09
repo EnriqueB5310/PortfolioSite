@@ -5,7 +5,7 @@ function ProjectCard({title,bio,link,demo,image}) {
     <div className="container mx-auto py-[50px]">
       <div className="flex flex-col items-center justify-center">
         {/* Cards */}
-        <div className="bg-slate-700 w-[380px] h-[320px] rounded-[20px] lg:w-[1000px] lg:h-[400px] shadow-lg transition duration-300 transform hover:shadow-2xl filter hover:brightness-90">
+        <div className="bg-slate-700 w-[380px] h-[320px] rounded-[20px] lg:w-[1000px] lg:h-[400px] shadow-lg ">
           <div className="flex flex-col lg:flex-row text-white text-center">
             {/* Image */}
             <div className="lg:px-5 lg:py-[50px] ">
