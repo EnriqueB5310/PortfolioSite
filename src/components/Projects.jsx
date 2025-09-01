@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 import Mp3Mp4 from '../assets/mp3mp4.png'
-
+import Portfolio from '../assets/portfolio.png'
 
 function Projects() {
 
@@ -18,9 +18,9 @@ tech: null,
 
 {
  
-  title: "Youtube Mp3 Converter",
-bio: "Converts Youtube videos into mp3 or mp4 format for offline viewing",
-image: Mp3Mp4,
+  title: "Portfolio Site",
+bio: "Personal webpage displaying resume, contacts and projects (You're on it!)",
+image: Portfolio,
 demo: "https://ytmp3-iqma.onrender.com/",
 tech: null,
 
