@@ -14,7 +14,20 @@ image: Mp3Mp4,
 demo: "https://ytmp3-iqma.onrender.com/",
 tech: null,
 
-}]
+},
+
+{
+ 
+  title: "Youtube Mp3 Converter",
+bio: "Converts Youtube videos into mp3 or mp4 format for offline viewing",
+image: Mp3Mp4,
+demo: "https://ytmp3-iqma.onrender.com/",
+tech: null,
+
+}
+
+
+]
 
 
 
@@ -26,7 +39,7 @@ tech: null,
         <div className="font-bold pt-[90px] text-[60px] text-white flex justify-center text-center ">
           <h1 className='mb-20 hover:text-violet-600 hover:duration-500'>Projects</h1>
         </div>
-        <div className="container lg:flex lg:justify-center mx-auto">
+        <div className="container lg:grid lg:justify-center mx-auto">
         {projects.map((project, index) => (
             <ProjectCard
               key={index}

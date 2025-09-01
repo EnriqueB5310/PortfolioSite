@@ -11,7 +11,7 @@ function Home() {
 <div className='flex items-center font-black  flex-col text-slate-50 pb-60 lg:pb-0'>
 
 <div className='text-center'>
-<h1 className='text-5xl font-black pt-9 mb-3'>Enrique Barrios</h1>
+<h1 className='text-5xl font-black pt-9 mb-3 hover:text-violet-600 hover:duration-500'>Enrique Barrios</h1>
 <h1 className='text-2xl pb-4 font-bold text-blue-500'>Full Stack Software Developer</h1>
 <p className='text-center pb-5'>Hello! I'm Enrique Barrios. Computer Science graduate and a passionate developer based in New York City eager to secure a position and further hone my skills in full stack development. With proficiency in Java, Spring boot, C#, React, AWS, And Postgres I seek to apply my technical skill in a role that benefits the masses</p>
 </div>
