@@ -2,6 +2,7 @@ import React from 'react'
 import ProjectCard from './ProjectCard'
 import Mp3Mp4 from '../assets/mp3mp4.png'
 import Portfolio from '../assets/portfolio.png'
+import Church from '../assets/church.jpg'
 
 function Projects() {
 
@@ -13,6 +14,7 @@ bio: "Converts Youtube videos into mp3 or mp4 format for offline viewing",
 image: Mp3Mp4,
 demo: "https://ytmp3-iqma.onrender.com/",
 tech: null,
+link: "https://github.com/EnriqueB5310/MP3Converter"
 
 },
 
@@ -23,6 +25,25 @@ bio: "Personal webpage displaying resume, contacts and projects (You're on it!)"
 image: Portfolio,
 demo: "https://ytmp3-iqma.onrender.com/",
 tech: null,
+
+},
+{
+  title:"ComicsVine api wrapper",
+  bio: "Wrapper api made in SpringBoot to cache the calls of the Comicvine api",
+  image: null,
+  tech: null,
+  link: "https://github.com/EnriqueB5310/CB-wrapper",
+  demo: null
+},
+
+{
+
+  title:"Queen Of Lady Peace",
+  bio:"Buissness page for Queen of Lady Peace church located in Allentown PA",
+  image: Church,
+  link: null ,
+  demo: "https://qopchurch.org/",
+  tech: null
 
 }
 
@@ -48,6 +69,7 @@ tech: null,
               bio={project.bio}
               link={project.link}
               demo={project.demo}
+              
             />
           ))}
         </div>
