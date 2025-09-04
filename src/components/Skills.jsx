@@ -29,7 +29,7 @@ function Skills() {
 <h4 className='text-[60px] ml-2 mt-2 text-left  lg:text-center leading-[46px]'>Skills</h4>
 </div>
 <p className='mt-4 mb-4 ml-3 lg:text-center'>Comitted to continuous learning and refining my skills</p>
-<div className='grid lg:grid-cols-6 gap-2 lg:text-center justify-center '>
+<div className='grid grid-cols-2 lg:grid-cols-6 gap-2 lg:text-center justify-center '>
 <SkillCard image={Typescript} text={"Typescript"} />
 <SkillCard image={ReactLogo} text={"React"} />
 <SkillCard image={SpringLogo} text={"Spring Boot"} />

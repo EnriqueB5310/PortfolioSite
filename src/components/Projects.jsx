@@ -3,6 +3,10 @@ import ProjectCard from './ProjectCard'
 import Mp3Mp4 from '../assets/mp3mp4.png'
 import Portfolio from '../assets/portfolio.png'
 import Church from '../assets/church.jpg'
+import { IoIosDesktop } from "react-icons/io";
+
+
+
 
 function Projects() {
 
@@ -57,9 +61,11 @@ tech: null,
    <>
    <section id="projects" className=" min-h-[910px] bg-primary">
       
-        <div className="font-bold pt-[90px] text-[60px] text-white flex justify-center text-center ">
-          <h1 className='mb-20 hover:text-violet-600 hover:duration-500'>Projects</h1>
-        </div>
+       <div className='flex lg:justify-center sm:text-center font-black text-slate-50 hover:text-purple-600 duration-500'>
+       
+       <IoIosDesktop size={60}/>
+       <h4 className='text-[60px] ml-2 mt-2 text-left  lg:text-center leading-[46px]'>Projects</h4>
+       </div>
         <div className="container lg:grid lg:justify-center mx-auto">
         {projects.map((project, index) => (
             <ProjectCard
