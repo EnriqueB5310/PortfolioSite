@@ -33,7 +33,7 @@ tech: null,
 },
 {
   title:"ComicsVine api wrapper",
-  bio: "Wrapper api made in SpringBoot to cache the calls of the Comicvine api",
+  bio: "Wrapper api made in SpringBoot to cache the calls of the Comicvine API",
   image: null,
   tech: null,
   link: "https://github.com/EnriqueB5310/CB-wrapper",
@@ -65,7 +65,9 @@ tech: null,
        
        <IoIosDesktop size={60}/>
        <h4 className='text-[60px] ml-2 mt-2 text-left  lg:text-center leading-[46px]'>Projects</h4>
+       
        </div>
+       <p className='mt-4 mb-4 ml-3 lg:text-center text-slate-50 font-black'>Explore some of my recent projects</p>
         <div className="container lg:grid lg:justify-center mx-auto">
         {projects.map((project, index) => (
             <ProjectCard

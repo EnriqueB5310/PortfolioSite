@@ -1,5 +1,12 @@
 import React from 'react'
 
+import { VscGithubAlt } from "react-icons/vsc";
+import { VscDebugContinueSmall } from "react-icons/vsc";
+
+
+
+
+
 function ProjectCard({title,bio,link,demo,image}) {
   return(
     <div className="container mx-auto py-[50px]">
@@ -32,20 +39,24 @@ function ProjectCard({title,bio,link,demo,image}) {
               <div className="flex space-x-[15px] justify-center items-center mt-[20px]">
                 <a
                   href={link}
-                  className="bg-blue-500 hover:bg-bHoverColor translate-colors duration-300 text-white font-bold py-1 px-4 rounded hover:animate-pulse"
+                  className="bg-blue-500 hover:bg-bHoverColor translate-colors duration-300 text-white font-bold py-1 px-4 rounded hover:animate-pulse flex"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Code
+                  
+                 <span className='pr-3'> Github </span>
+                  <VscGithubAlt size={20}/>
                 </a>
                 {demo && (
                   <a
                     href={demo}
-                    className="bg-violet-500 hover:bg-bHoverColor translate-colors duration-300 text-white font-bold py-1 px-4 rounded hover:animate-pulse"
+                    className="bg-violet-500 hover:bg-bHoverColor translate-colors duration-300 text-white font-bold py-1 px-4 flex rounded hover:animate-pulse"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Demo
+                     <span className='pr-3'> Demo </span>
+                    <VscDebugContinueSmall size={20} />
+                 
                   </a>
                 )}
               </div>

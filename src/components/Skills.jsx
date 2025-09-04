@@ -21,7 +21,7 @@ import GitLogo from '../assets/git.svg'
 
 function Skills() {
   return (
-<div className='flex  font-black  flex-col text-slate-50 pb-60 lg:mt-[10rem] lg:pb-1'>
+<div className='flex  font-black  flex-col text-slate-50 pb-60 lg:mt-[8rem] lg:pb-1'>
 
 <div className='flex lg:justify-center lg:text-center hover:text-purple-600 duration-500'>
 
