@@ -61,7 +61,7 @@ function ProjectCard({title,bio,link,demo,image}) {
                 )}
               </div>
             </div>
-          </div>
+          </div> 
         </div>
       </div>
     </div>
