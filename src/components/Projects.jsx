@@ -4,7 +4,7 @@ import Mp3Mp4 from '../assets/mp3mp4.png'
 import Portfolio from '../assets/portfolio.png'
 import Church from '../assets/church.jpg'
 import { IoIosDesktop } from "react-icons/io";
-
+import WIP from '../assets/WIP.jpg'
 
 
 
@@ -14,7 +14,7 @@ function Projects() {
 const projects = [{
 
 title: "Youtube Mp3 Converter",
-bio: "Converts Youtube videos into mp3 or mp4 format for offline viewing",
+bio: "ExpressJS App that Converts Youtube videos into mp3 or mp4 format for offline viewing",
 image: Mp3Mp4,
 demo: "https://ytmp3-iqma.onrender.com/",
 tech: null,
@@ -33,8 +33,8 @@ tech: null,
 },
 {
   title:"ComicsVine api wrapper",
-  bio: "Wrapper api made in SpringBoot to cache the calls of the Comicvine API",
-  image: null,
+  bio: "Wrapper API made in Java & SpringBoot to cache the calls of the Comicvine API",
+  image: WIP,
   tech: null,
   link: "https://github.com/EnriqueB5310/CB-wrapper",
   demo: null
