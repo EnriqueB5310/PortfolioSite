@@ -7,7 +7,8 @@ import Linkedin from '../assets/Linkedin.png'
 
 function Home() {
   return (
-   
+ 
+ <section className='Home'>
 <div className='flex items-center font-black  flex-col text-slate-50 pb-60 lg:pb-0'>
 
 <div className='text-center'>
@@ -35,7 +36,7 @@ function Home() {
 
 </div> 
 
-
+</section>
 
 
 

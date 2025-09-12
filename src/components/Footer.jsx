@@ -4,6 +4,8 @@ import { VscCoffee } from "react-icons/vsc";
 function Footer() {
   return (
     
+
+    <section className='contact'>
 <footer className="bg-white dark:bg-gray-900">
     
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
@@ -48,7 +50,7 @@ function Footer() {
       </div>
     </div>
 </footer>
-
+</section>
 
   )
 }

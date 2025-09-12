@@ -39,13 +39,13 @@ export default function Header() {
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px] text-slate-50">
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/about">About</a>
+                <a href="#Home">About</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/portfolio">Portfolio</a>
+                <a href="#projects">Portfolio</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/contact">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -56,7 +56,7 @@ export default function Header() {
             <a href="/about">About</a>
           </li>
           <li>
-            <a href="/portfolio">Portfolio</a>
+            <a href="#projects">Portfolio</a>
           </li>
           <li>
             <a href="/contact">Contact</a>
